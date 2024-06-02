@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Hind', sans-serif;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+header {
+    padding: 20px;
+    background-color: #fdf6f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    color: #7f2549;
+    font-family: 'Hind', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    margin-left: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    color: #7f2549;
+    font-weight: lighter;
+    display: inline;
+    margin-right: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #7f2549;
+    letter-spacing: .1875rem;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    padding: 8px 14px;
+    background-color: #752d4c;
+    color: #fff;
+}
+footer {
+    background-color: #7f2549;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.product {
+    overflow: visible;
+    margin: 30px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.product-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: calc(33.333% - 2rem);
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+}
+.product-item img {
+    height: 230px;
+    width: 70%;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    border: 2px;
+    object-fit: cover;
+    transition: box-shadow 0.3s;
+}
+.product-item img:hover {
+    box-shadow: 2px 2px 2px #7f2549;
+}
+.product-item h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: #7f2549;
+}
+.product-item p {
+    margin: 0.5rem 0;
+    color: #333;
+}
+.product-item .price {
+    font-size: 1.2rem;
+    color: #7f2549;
+    font-weight: bold;
+}
+.product-item button {
+    padding: 0.5rem 1rem;
+    background-color: #7f2549;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 90%;  /* Updated to 90% width */
+    border-radius: 12px;
+    transition: background-color 0.3s;
+}
+.product-item button:hover {
+    background-color: #5a1936;
+}
+.det {
+    color: #7f2549;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.2rem; /* Adjusted font size for better readability */
+}
